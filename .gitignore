@@ -1,4 +1,5 @@
 .idea/
 __pycache__/
 secret_settings.py
+greettingApp/migrations/0001_initial.py
 
