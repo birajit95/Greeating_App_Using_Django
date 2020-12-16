@@ -15,6 +15,7 @@ function cardConfigure(name, message){
 }
 
 function loadData(data){  //Loading data
+    cardlist.innerHTML = "";
     for(i in data)
     {
         cardlist.appendChild(cardConfigure(data[i].name, data[i].message))
@@ -22,13 +23,12 @@ function loadData(data){  //Loading data
 }
 
 function addData(){    
-
-    let name = document.getElementById('name').value
-    let message = document.getElementById('message').value
-
+    let name = document.getElementById('name')
+    let message = document.getElementById('message')
+    document.getElementById("modalCancelId").click()
     sendData = JSON.stringify({
-        name: name,
-        message: message
+        name: name.value,
+        message: message.value
     })
 
     let csrftoken = document.getElementsByName("csrfmiddlewaretoken")[0].value
@@ -39,5 +39,13 @@ function addData(){
             'Content-Type': 'application/json',
             "X-CSRFToken": csrftoken },
     })
-
+    response.then(response=>{
+        return response.json()
+    }).then(data=>{
+        name.value = ""
+        message.value = ""
+        loadData(data)
+    }).catch(e=>{
+        console.log("Error")
+    })
 }

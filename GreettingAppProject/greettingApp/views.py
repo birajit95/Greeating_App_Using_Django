@@ -5,7 +5,6 @@ import json
 
 def home(request):
     recordData = [dict(item) for item in GreetingRecords.objects.all().values('id', 'name', 'message')]
-
     return render(request, "greetingApp/home.html", {"data": json.dumps(recordData)})
 
 
@@ -15,6 +14,7 @@ def addData(request):
         if formData:
             recordData = GreetingRecords(name=formData["name"], message=formData['message'])
             recordData.save()
-            return HttpResponse("true")
+            data = [dict(item) for item in GreetingRecords.objects.all().values('id', 'name', 'message')]
+            return HttpResponse(json.dumps(data))
         else:
             return HttpResponse("false")
