@@ -1,5 +1,5 @@
 let cardlist = document.getElementById('cardlist')
-function cardConfigure(name, message){
+function cardConfigure(recordID, name, message){
     let cardHTML = `
                 <div class="card-body">
                 <h5 class="card-title">${name}</h5>
@@ -10,6 +10,7 @@ function cardConfigure(name, message){
             `
     let child = document.createElement('div')
     child.className = 'card';
+    child.id = recordID;
     child.innerHTML = cardHTML;
     return child
 }
@@ -18,7 +19,7 @@ function loadData(data){  //Loading data
     cardlist.innerHTML = "";
     for(i in data)
     {
-        cardlist.appendChild(cardConfigure(data[i].name, data[i].message))
+        cardlist.appendChild(cardConfigure(data[i].id, data[i].name, data[i].message))
     }
 }
 
