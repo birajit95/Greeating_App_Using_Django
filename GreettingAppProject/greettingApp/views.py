@@ -4,8 +4,8 @@ import json
 
 
 def home(request):
-    recordData = [dict(item) for item in GreetingRecords.objects.all().values('id', 'name', 'message')]
-    return render(request, "greetingApp/home.html", {"data": json.dumps(recordData)})
+    recordData = GreetingRecords.objects.all()
+    return render(request, "greetingApp/home.html", {"data": recordData})
 
 
 def addData(request):
