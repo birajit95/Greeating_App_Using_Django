@@ -5,7 +5,7 @@ function cardConfigure(recordID, name, message){
                 <h5 class="card-title">${name}</h5>
                 <p class="card-text">${message}</p>
                 <button type="button" onclick="updatePopup(this)" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#updateModal">Edit </button>
-                <button type="button" onclick="deleteRecord(this)" class="btn btn-danger">Delete</button>
+                <button type="button" onclick="deletePopup(this)" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal">Delete</button>
                 </div>
             `
     let child = document.createElement('div')
@@ -63,9 +63,17 @@ function addData(){
     })
 }
 
-function deleteRecord(e){
+let deleteCardID = null;
+
+function deletePopup(e){
+    deleteCardID = e.parentNode.parentNode.id;
+}
+
+
+function deleteRecord(){
+    document.getElementById("deletConfirmModalCancelId").click();
     let csrftoken = document.getElementsByName("csrfmiddlewaretoken")[0].value
-    let url = "delete/"+e.parentNode.parentNode.id;
+    let url = "delete/"+deleteCardID;  //using global variable
     fetch(url,{
         method: 'DELETE',
         headers: { 
