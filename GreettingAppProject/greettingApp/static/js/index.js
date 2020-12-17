@@ -64,8 +64,14 @@ function addData(){
 }
 
 function deleteRecord(e){
+    let csrftoken = document.getElementsByName("csrfmiddlewaretoken")[0].value
     let url = "delete/"+e.parentNode.parentNode.id;
-    fetch(url).then(response=>{
+    fetch(url,{
+        method: 'DELETE',
+        headers: { 
+            'Content-Type': 'application/json',
+            "X-CSRFToken": csrftoken }
+    }).then(response=>{
         console.log(response);
     })
 }
