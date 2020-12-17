@@ -57,7 +57,7 @@ function addData(){
         name.value = ""
         message.value = ""
         loadData(data)
-        callNotify('success', "Your greeting is </b> added")
+        callNotify('success', "Your greeting is</br> added")
     }).catch(e=>{
         callNotify('danger', "Error occurd")
     })
@@ -72,6 +72,9 @@ function deleteRecord(e){
             'Content-Type': 'application/json',
             "X-CSRFToken": csrftoken }
     }).then(response=>{
-        console.log(response);
+        return response.json();
+    }).then(data=>{
+        loadData(data)
+        callNotify('warning', "Greeting is deleted")
     })
 }
