@@ -27,3 +27,16 @@ def deleteRecord(request, recordID):
         return HttpResponse(json.dumps(data))
     return HttpResponse("false")
 
+
+def updateRecord(request, recordID):
+    if request.method == "PUT":
+        formData = json.loads(request.body.decode())
+        if formData:
+            record = GreetingRecords.objects.get(id=recordID)
+            record.name = formData["name"]
+            record.message = formData["message"]
+            record.save()
+            data = [dict(item) for item in GreetingRecords.objects.all().values('id', 'name', 'message')]
+            return HttpResponse(json.dumps(data))
+        else:
+            return HttpResponse("false")
