@@ -18,3 +18,12 @@ def addData(request):
             return HttpResponse(json.dumps(data))
         else:
             return HttpResponse("false")
+
+
+def deleteRecord(request, recordID):
+    if request.method == "DELETE":
+        GreetingRecords.objects.filter(id=recordID).delete()
+        data = [dict(item) for item in GreetingRecords.objects.all().values('id', 'name', 'message')]
+        return HttpResponse(json.dumps(data))
+    return HttpResponse("false")
+
