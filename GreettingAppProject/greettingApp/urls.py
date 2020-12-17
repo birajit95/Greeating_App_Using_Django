@@ -5,5 +5,5 @@ urlpatterns = [
 
     path('', home, name="home"),
     path('addData/', addData, name="addData"),
-    path('delete_record/<int: recordId>/', deleteRecord, name='deleteRecord'),
-            ]
+    path('delete/<int:recordID>', deleteRecord, name='deleteRecord'),
+]

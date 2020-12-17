@@ -64,7 +64,7 @@ function addData(){
 }
 
 function deleteRecord(e){
-    let url = "delete_record/?recordid="+e.parentNode.parentNode.id
+    let url = "delete/"+e.parentNode.parentNode.id;
     fetch(url).then(response=>{
         console.log(response);
     })
