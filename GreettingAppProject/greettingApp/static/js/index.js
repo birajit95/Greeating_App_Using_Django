@@ -23,6 +23,17 @@ function loadData(data){  //Loading data
     }
 }
 
+function callNotify(messageType, message){
+    let notifyDivHTML = `<p class="text-${messageType}"><strong>${message}</strong></p>`
+    let childDiv = document.createElement('div')
+    childDiv.classList.add("notification-bar")
+    childDiv.classList.add("notify-animate")
+    childDiv.innerHTML = notifyDivHTML
+    notifyDiv = document.getElementById('notify')
+    notifyDiv.appendChild(childDiv)
+}
+
+
 function addData(){    
     let name = document.getElementById('name')
     let message = document.getElementById('message')
@@ -46,7 +57,8 @@ function addData(){
         name.value = ""
         message.value = ""
         loadData(data)
+        callNotify('success', "Your greeting is </b> added")
     }).catch(e=>{
-        console.log("Error")
+        callNotify('danger', "Error occurd")
     })
 }

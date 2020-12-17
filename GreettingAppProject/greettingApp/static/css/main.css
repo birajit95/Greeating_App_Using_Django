@@ -15,6 +15,7 @@
     box-shadow: 2px 2px 4px 2px rgb(170, 170, 136);
     /* white-space: nowrap; */
     /* overflow: hidden; */
+    float: left;
     transition: all 1s;
 
 }
@@ -46,3 +47,41 @@
     box-shadow: -5px 0px 2px 0px rgb(170, 170, 136);
     margin: 1%;
 }
+body{
+    overflow-x: hidden;
+}
+.notification-bar{
+    text-align: center;
+    font-size:large;
+    width: 200px;
+    height: 15%;
+    background-color:whitesmoke; 
+    position: absolute;
+    margin-top: 50px;
+    padding: 30px;
+    right: -200px;
+    border-bottom-left-radius:50px ;
+    text-indent: 0%;
+    box-shadow: 12px 12px 4px 2px rgb(170, 170, 136);
+    white-space: nowrap;
+
+}
+
+.notify-animate {
+    animation-name: notify;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    
+  }
+  
+  @keyframes notify {
+    0% {right:-200px; opacity: 0;}
+    20% {right: 5px; opacity: 1;}
+    60% {right: 0px; opacity: .9;}
+    70% {right: 0px; opacity: .8;}
+    80% {right: 0px; opacity: .7;}
+    100% {right: -200px;}
+
+
+
+  }
