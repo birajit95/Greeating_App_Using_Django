@@ -4,7 +4,7 @@ function cardConfigure(recordID, name, message){
                 <div class="card-body">
                 <h5 class="card-title">${name}</h5>
                 <p class="card-text">${message}</p>
-                <button type="button" class="btn btn-secondary">Edit</button>
+                <button type="button" onclick="updatePopup(this)" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#updateModal">Edit </button>
                 <button type="button" onclick="deleteRecord(this)" class="btn btn-danger">Delete</button>
                 </div>
             `
@@ -77,4 +77,47 @@ function deleteRecord(e){
         loadData(data)
         callNotify('warning', "Greeting is deleted")
     })
+}
+
+card_id = null // global 
+
+function updatePopup(e, updateStatus=null){
+    card_id = e.parentNode.parentNode.id
+    let card = document.getElementById(card_id)
+    cardName = card.firstElementChild.children[0].innerText
+    cardMessage = card.firstElementChild.children[1].innerText
+    document.getElementById('update_name').value = cardName
+    document.getElementById('update_message').value = cardMessage
+
+}
+
+function updateRecord(){
+    let csrftoken = document.getElementsByName("csrfmiddlewaretoken")[0].value
+    let url = "update/"+card_id;   // using the global variable
+    Name = document.getElementById('update_name')
+    Message = document.getElementById('update_message')
+
+    formData = JSON.stringify({
+        name: Name.value,
+        message: Message.value
+    })
+    fetch(url,{
+        method:"PUT",
+        body:formData,
+        headers:{
+            'Content-Type':'application/json',
+            "X-CSRFToken": csrftoken 
+        }
+    }).then(response=>{
+        return response.json()
+    }).then(data=>{
+        Name.value = ""
+        Message.value = ""
+        document.getElementById("updateModalCancelId").click()
+        loadData(data)
+        callNotify('success', "Card is updated")
+    }).catch(e=>{
+        callNotify('danger', "Update Failed!")
+    })
+
 }
