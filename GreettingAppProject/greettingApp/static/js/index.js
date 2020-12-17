@@ -4,8 +4,8 @@ function cardConfigure(recordID, name, message){
                 <div class="card-body">
                 <h5 class="card-title">${name}</h5>
                 <p class="card-text">${message}</p>
-                <a href="#" class="btn btn-secondary">Edit</a>
-                <a href="#" class="btn btn-danger">Delete</a>
+                <button type="button" class="btn btn-secondary">Edit</button>
+                <button type="button" onclick="deleteRecord(this)" class="btn btn-danger">Delete</button>
                 </div>
             `
     let child = document.createElement('div')
@@ -60,5 +60,12 @@ function addData(){
         callNotify('success', "Your greeting is </b> added")
     }).catch(e=>{
         callNotify('danger', "Error occurd")
+    })
+}
+
+function deleteRecord(e){
+    let url = "delete_record/?recordid="+e.parentNode.parentNode.id
+    fetch(url).then(response=>{
+        console.log(response);
     })
 }
