@@ -91,6 +91,25 @@
   </div>
 </div>
 
+<!--Delete Confirm Modal -->
+<div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Delete Confirm?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <strong>Do you want to delete?</strong>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="deletConfirmModalCancelId" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button onclick="deleteRecord()" type="button" class="btn btn-secondary">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <script src="{% static 'js/index.js' %}"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->

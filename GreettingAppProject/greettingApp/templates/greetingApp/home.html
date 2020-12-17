@@ -14,7 +14,7 @@
         <h5 class="card-title">{{record.name}}</h5>
         <p class="card-text">{{record.message}}</p>
         <button type="button" onclick="updatePopup(this)" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#updateModal">Edit </button>
-        <button type="button" onclick="deleteRecord(this)" class="btn btn-danger">Delete</button>
+        <button type="button" onclick="deletePopup(this)" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal">Delete</button>
       </div>
     </div>
     {% endfor %}
