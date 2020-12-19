@@ -43,9 +43,17 @@
     flex-flow: wrap;
 }
 .card{
+    background-color: bisque;
     width: 20%;
     box-shadow: -5px 0px 2px 0px rgb(170, 170, 136);
     margin: 1%;
+    cursor: pointer;
+    transform:scale(1);
+    transition: all .1s;
+}
+.card:hover{
+    box-shadow: -5px 4px 2px 1px rgb(170, 170, 136);
+    transform: scale(1.05);
 }
 body{
     overflow-x: hidden;
@@ -81,7 +89,5 @@ body{
     70% {right: 0px; opacity: .8;}
     80% {right: 0px; opacity: .7;}
     100% {right: -200px;}
-
-
 
   }
