@@ -83,3 +83,784 @@ params: ()
 2020-12-19 10:59:15,849:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
 2020-12-19 10:59:15,850:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
 2020-12-19 10:59:15,850:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:08:24,810:INFO:All records are displayed
+2020-12-19 11:08:24,863:DEBUG:New Database connection
+2020-12-19 11:08:24,863:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:08:24,865:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:08:24,866:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:08:24,867:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:08:24,867:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:08:24,874:DEBUG:MongoClient connection closed
+2020-12-19 11:08:39,551:INFO:All records are displayed
+2020-12-19 11:08:39,555:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:08:39,555:DEBUG:New Database connection
+2020-12-19 11:08:39,555:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:08:39,557:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:08:39,569:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:08:39,569:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:08:39,570:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:08:39,599:DEBUG:MongoClient connection closed
+2020-12-19 11:08:40,650:INFO:All records are displayed
+2020-12-19 11:08:40,654:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:08:40,654:DEBUG:New Database connection
+2020-12-19 11:08:40,654:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:08:40,656:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:08:40,666:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:08:40,667:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:08:40,667:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:08:40,691:DEBUG:MongoClient connection closed
+2020-12-19 11:09:30,416:INFO:All records are displayed
+2020-12-19 11:09:30,422:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:09:30,422:DEBUG:New Database connection
+2020-12-19 11:09:30,422:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:09:30,425:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:09:30,443:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:09:30,443:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:09:30,443:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:09:30,448:DEBUG:MongoClient connection closed
+2020-12-19 11:09:31,574:INFO:All records are displayed
+2020-12-19 11:09:31,579:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:09:31,579:DEBUG:New Database connection
+2020-12-19 11:09:31,579:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:09:31,582:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:09:31,606:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:09:31,607:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:09:31,607:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:09:31,611:DEBUG:MongoClient connection closed
+2020-12-19 11:09:32,396:INFO:All records are displayed
+2020-12-19 11:09:32,400:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:09:32,401:DEBUG:New Database connection
+2020-12-19 11:09:32,401:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:09:32,405:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:09:32,414:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:09:32,415:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:09:32,415:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:09:32,421:DEBUG:MongoClient connection closed
+2020-12-19 11:09:44,214:INFO:All records are displayed
+2020-12-19 11:09:44,219:DEBUG:New Database connection
+2020-12-19 11:09:44,219:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:09:44,224:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:09:44,234:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:09:44,235:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:09:44,235:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:09:44,242:DEBUG:MongoClient connection closed
+2020-12-19 11:10:21,070:INFO:All records are displayed
+2020-12-19 11:10:21,075:DEBUG:New Database connection
+2020-12-19 11:10:21,076:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:10:21,079:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:10:21,090:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:10:21,090:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:10:21,090:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:10:21,130:DEBUG:MongoClient connection closed
+2020-12-19 11:10:37,677:INFO:All records are displayed
+2020-12-19 11:10:37,684:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:10:37,684:DEBUG:New Database connection
+2020-12-19 11:10:37,685:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:10:37,688:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:10:37,702:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:10:37,702:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:10:37,702:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:10:37,707:DEBUG:MongoClient connection closed
+2020-12-19 11:14:31,660:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:14:31,660:DEBUG:New Database connection
+2020-12-19 11:14:31,661:DEBUG:sql_command: INSERT INTO "greettingApp_greetingrecords" ("name", "message") VALUES (%(0)s, %(1)s)
+params: ['Covid19', 'Hello people']
+2020-12-19 11:14:31,688:DEBUG:inserted ids [ObjectId('5fdd933f1a67c03b3d465096')]
+2020-12-19 11:14:31,688:INFO:Covid19, Hello people... Data is saved
+2020-12-19 11:14:31,690:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:14:31,692:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:14:31,694:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:14:31,695:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:14:31,695:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:14:31,696:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:14:31,705:DEBUG:MongoClient connection closed
+2020-12-19 11:15:20,958:INFO:All records are displayed
+2020-12-19 11:15:20,965:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:15:20,966:DEBUG:New Database connection
+2020-12-19 11:15:20,966:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:20,970:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:21,003:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:21,004:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:21,004:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:21,004:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:21,015:DEBUG:MongoClient connection closed
+2020-12-19 11:15:22,180:INFO:All records are displayed
+2020-12-19 11:15:22,185:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:15:22,185:DEBUG:New Database connection
+2020-12-19 11:15:22,186:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:22,188:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:22,203:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:22,203:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:22,204:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:22,204:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:22,221:DEBUG:MongoClient connection closed
+2020-12-19 11:15:22,861:INFO:All records are displayed
+2020-12-19 11:15:22,864:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:15:22,864:DEBUG:New Database connection
+2020-12-19 11:15:22,864:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:22,866:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:22,877:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:22,878:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:22,878:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:22,878:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:22,882:DEBUG:MongoClient connection closed
+2020-12-19 11:15:30,721:INFO:All records are displayed
+2020-12-19 11:15:30,727:DEBUG:New Database connection
+2020-12-19 11:15:30,728:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:30,733:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:30,752:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:30,753:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:30,753:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:30,754:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:30,760:DEBUG:MongoClient connection closed
+2020-12-19 11:15:31,584:INFO:All records are displayed
+2020-12-19 11:15:31,590:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:15:31,590:DEBUG:New Database connection
+2020-12-19 11:15:31,591:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:31,594:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:31,611:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:31,611:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:31,612:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:31,612:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:31,622:DEBUG:MongoClient connection closed
+2020-12-19 11:15:44,847:INFO:All records are displayed
+2020-12-19 11:15:44,852:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:15:44,852:DEBUG:New Database connection
+2020-12-19 11:15:44,852:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:44,857:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:44,865:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:44,866:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:44,866:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:44,867:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:44,871:DEBUG:MongoClient connection closed
+2020-12-19 11:15:45,772:INFO:All records are displayed
+2020-12-19 11:15:45,776:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:15:45,776:DEBUG:New Database connection
+2020-12-19 11:15:45,776:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:45,778:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:45,787:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:45,788:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:45,788:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:45,788:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:45,792:DEBUG:MongoClient connection closed
+2020-12-19 11:15:51,993:INFO:All records are displayed
+2020-12-19 11:15:52,000:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:15:52,000:DEBUG:New Database connection
+2020-12-19 11:15:52,000:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:15:52,004:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:15:52,037:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:15:52,038:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:15:52,038:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:15:52,039:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:15:52,069:DEBUG:MongoClient connection closed
+2020-12-19 11:30:16,262:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py changed, reloading.
+2020-12-19 11:30:16,276:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:30:18,585:DEBUG:New MongoClient connection
+2020-12-19 11:30:18,597:DEBUG:New Database connection
+2020-12-19 11:30:18,623:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:30:18,626:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:30:18,629:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:30:18,629:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:30:18,630:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:30:18,630:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:30:18,631:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:30:18,631:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:30:18,632:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:30:18,632:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:30:18,632:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:30:18,633:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:30:18,633:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:30:18,634:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:30:18,635:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:30:18,635:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:30:18,636:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:30:18,636:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:30:18,637:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:30:18,637:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:30:25,778:INFO:All records are displayed
+2020-12-19 11:30:25,778:DEBUG:New Database connection
+2020-12-19 11:30:25,779:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:30:25,781:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:30:25,782:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:30:25,783:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:30:25,783:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:30:25,783:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:30:25,806:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:30:25,810:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:30:25,811:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:30:25,812:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:30:25,812:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:30:25,813:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:30:25,822:DEBUG:MongoClient connection closed
+2020-12-19 11:30:57,883:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py changed, reloading.
+2020-12-19 11:30:57,896:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:31:00,620:DEBUG:New MongoClient connection
+2020-12-19 11:31:00,651:DEBUG:New Database connection
+2020-12-19 11:31:00,702:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:31:00,706:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:31:00,708:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:31:00,708:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:31:00,709:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:31:00,709:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:31:00,710:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:31:00,710:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:31:00,710:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:31:00,711:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:31:00,711:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:31:00,712:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:31:00,712:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:31:00,712:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:31:00,713:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:31:00,713:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:31:00,714:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:31:00,714:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:31:00,714:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:31:00,715:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:31:08,782:INFO:All records are displayed
+2020-12-19 11:31:08,834:DEBUG:New Database connection
+2020-12-19 11:31:08,834:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:31:08,837:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:31:08,838:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:31:08,838:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:31:08,839:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:31:08,839:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:31:08,893:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py", line 10, in home
+    print(recordData._id)
+AttributeError: 'QuerySet' object has no attribute '_id'
+2020-12-19 11:31:08,913:DEBUG:MongoClient connection closed
+2020-12-19 11:31:17,972:INFO:All records are displayed
+2020-12-19 11:31:17,994:DEBUG:Existing MongoClient connection closed
+2020-12-19 11:31:17,994:DEBUG:New Database connection
+2020-12-19 11:31:17,995:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:31:17,998:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:31:17,968:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py changed, reloading.
+2020-12-19 11:31:18,027:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:31:20,493:DEBUG:New MongoClient connection
+2020-12-19 11:31:20,506:DEBUG:New Database connection
+2020-12-19 11:31:20,529:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:31:20,535:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:31:20,537:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:31:20,538:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:31:20,538:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:31:20,539:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:31:20,540:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:31:20,540:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:31:20,541:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:31:20,541:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:31:20,542:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:31:20,542:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:31:20,543:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:31:20,543:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:31:20,544:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:31:20,544:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:31:20,545:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:31:20,546:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:31:20,547:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:31:20,547:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:31:20,644:INFO:All records are displayed
+2020-12-19 11:31:20,672:DEBUG:New Database connection
+2020-12-19 11:31:20,672:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:31:20,676:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:31:20,678:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:31:20,678:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:31:20,679:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:31:20,679:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:31:20,755:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py", line 10, in home
+    print(recordData.id)
+AttributeError: 'QuerySet' object has no attribute 'id'
+2020-12-19 11:31:20,765:DEBUG:MongoClient connection closed
+2020-12-19 11:31:34,554:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:31:44,814:DEBUG:New MongoClient connection
+2020-12-19 11:31:44,827:DEBUG:New Database connection
+2020-12-19 11:31:44,848:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:31:44,851:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:31:44,853:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:31:44,853:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:31:44,854:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:31:44,854:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:31:44,855:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:31:44,855:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:31:44,855:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:31:44,856:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:31:44,856:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:31:44,857:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:31:44,857:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:31:44,858:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:31:44,858:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:31:44,859:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:31:44,859:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:31:44,860:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:31:44,860:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:31:44,860:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:32:31,103:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py changed, reloading.
+2020-12-19 11:32:31,105:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:32:33,459:DEBUG:New MongoClient connection
+2020-12-19 11:32:33,477:DEBUG:New Database connection
+2020-12-19 11:32:33,501:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:32:33,505:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:32:33,508:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:32:33,509:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:32:33,510:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:32:33,510:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:32:33,510:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:32:33,511:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:32:33,512:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:32:33,512:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:32:33,513:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:32:33,514:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:32:33,514:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:32:33,515:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:32:33,515:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:32:33,516:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:32:33,517:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:32:33,518:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:32:33,519:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:32:33,519:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:32:43,735:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py changed, reloading.
+2020-12-19 11:32:43,737:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:32:46,164:DEBUG:New MongoClient connection
+2020-12-19 11:32:46,176:DEBUG:New Database connection
+2020-12-19 11:32:46,234:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:32:46,240:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:32:46,242:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:32:46,243:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:32:46,243:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:32:46,244:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:32:46,244:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:32:46,244:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:32:46,245:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:32:46,245:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:32:46,246:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:32:46,246:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:32:46,247:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:32:46,247:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:32:46,248:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:32:46,248:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:32:46,249:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:32:46,249:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:32:46,250:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:32:46,250:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:32:46,408:INFO:All records are displayed
+2020-12-19 11:32:46,409:DEBUG:New Database connection
+2020-12-19 11:32:46,409:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:32:46,414:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:32:46,416:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:32:46,416:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:32:46,417:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:32:46,418:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:32:46,448:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 11:32:46,450:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 11:32:46,452:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:32:46,453:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:32:46,453:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:32:46,454:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:32:46,466:DEBUG:MongoClient connection closed
+2020-12-19 11:33:09,001:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py changed, reloading.
+2020-12-19 11:33:09,003:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:33:11,546:DEBUG:New MongoClient connection
+2020-12-19 11:33:11,556:DEBUG:New Database connection
+2020-12-19 11:33:11,681:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:33:11,686:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:33:11,689:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:33:11,690:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:33:11,691:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:33:11,691:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:33:11,692:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:33:11,693:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:33:11,693:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:33:11,694:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:33:11,695:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:33:11,695:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:33:11,696:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:33:11,696:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:33:11,697:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:33:11,697:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:33:11,698:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:33:11,698:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:33:11,699:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:33:11,699:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:33:12,132:DEBUG:New Database connection
+2020-12-19 11:33:12,132:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:33:12,137:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:33:12,139:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:33:12,140:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:33:12,140:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:33:12,140:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:33:12,141:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:33:12,145:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:33:12,147:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:33:12,147:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:33:12,148:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:33:12,148:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:33:12,149:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" LIMIT 21
+params: ()
+2020-12-19 11:33:12,153:DEBUG:Find query: {'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 11:33:12,155:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 11:33:12,156:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 11:33:12,156:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 11:33:12,157:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 11:33:12,246:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\db\models\sql\query.py", line 1865, in add_fields
+    join_info = self.setup_joins(name.split(LOOKUP_SEP), opts, alias, allow_many=allow_m2m)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\db\models\sql\query.py", line 1566, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\db\models\sql\query.py", line 1482, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword '_id' into field. Choices are: id, message, name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py", line 8, in home
+    recordData = GreetingRecords.objects.all().all().values('_id', 'name', 'message')
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\db\models\query.py", line 809, in values
+    clone = self._values(*fields, **expressions)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\db\models\query.py", line 804, in _values
+    clone.query.set_values(fields)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\db\models\sql\query.py", line 2145, in set_values
+    self.add_fields(field_names, True)
+  File "E:\WebApplicationsUsingDjango\GreettingApp\venv\lib\site-packages\django\db\models\sql\query.py", line 1887, in add_fields
+    raise FieldError("Cannot resolve keyword %r into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword '_id' into field. Choices are: id, message, name
+2020-12-19 11:33:12,313:DEBUG:MongoClient connection closed
+2020-12-19 11:33:43,688:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\views.py changed, reloading.
+2020-12-19 11:33:43,707:DEBUG:Using proactor: IocpProactor
+2020-12-19 11:33:45,874:DEBUG:New MongoClient connection
+2020-12-19 11:33:45,887:DEBUG:New Database connection
+2020-12-19 11:33:45,934:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 11:33:45,939:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 11:33:45,942:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 11:33:45,942:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 11:33:45,943:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 11:33:45,943:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 11:33:45,944:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 11:33:45,945:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 11:33:45,946:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 11:33:45,947:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 11:33:45,947:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 11:33:45,948:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 11:33:45,949:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 11:33:45,950:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 11:33:45,951:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 11:33:45,951:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 11:33:45,952:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 11:33:45,952:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 11:33:45,953:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 11:33:45,954:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 11:33:58,016:INFO:E:\WebApplicationsUsingDjango\GreettingApp\venv\Lib\site-packages\bson\objectid.py changed, reloading.
+2020-12-19 11:33:58,018:DEBUG:Using proactor: IocpProactor
+2020-12-19 12:00:51,986:DEBUG:New MongoClient connection
+2020-12-19 12:00:52,022:DEBUG:New Database connection
+2020-12-19 12:00:52,037:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 12:00:52,039:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 12:00:52,105:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 12:00:52,105:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 12:00:52,105:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 12:00:52,106:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 12:00:52,106:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 12:00:52,106:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 12:00:52,107:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 12:00:52,107:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 12:00:52,107:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 12:00:52,107:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 12:00:52,108:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 12:00:52,108:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 12:00:52,109:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 12:00:52,109:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 12:00:52,109:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 12:00:52,109:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 12:00:52,110:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 12:00:52,110:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 12:01:00,884:INFO:All records are displayed
+2020-12-19 12:01:01,006:DEBUG:New Database connection
+2020-12-19 12:01:01,006:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 12:01:01,010:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 12:01:01,044:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 12:01:01,045:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 12:01:01,045:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 12:01:01,045:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 12:01:01,119:DEBUG:MongoClient connection closed
+2020-12-19 12:01:02,370:WARNING:Not Found: /favicon.ico
+2020-12-19 12:01:10,741:DEBUG:Using proactor: IocpProactor
+2020-12-19 12:06:26,732:DEBUG:New MongoClient connection
+2020-12-19 12:06:26,742:DEBUG:New Database connection
+2020-12-19 12:06:26,760:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 12:06:26,763:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 12:06:26,764:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 12:06:26,765:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 12:06:26,765:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 12:06:26,765:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 12:06:26,766:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 12:06:26,766:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 12:06:26,767:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 12:06:26,767:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 12:06:26,767:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 12:06:26,768:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 12:06:26,768:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 12:06:26,768:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 12:06:26,769:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 12:06:26,769:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 12:06:26,769:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 12:06:26,770:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 12:06:26,770:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 12:06:26,770:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 12:07:32,867:DEBUG:Using proactor: IocpProactor
+2020-12-19 12:08:27,643:DEBUG:New MongoClient connection
+2020-12-19 12:08:27,651:DEBUG:New Database connection
+2020-12-19 12:08:27,666:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 12:08:27,669:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 12:08:27,671:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 12:08:27,671:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 12:08:27,672:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 12:08:27,672:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 12:08:27,672:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 12:08:27,673:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 12:08:27,673:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 12:08:27,673:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 12:08:27,674:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 12:08:27,674:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 12:08:27,674:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 12:08:27,674:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 12:08:27,675:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 12:08:27,675:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 12:08:27,675:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 12:08:27,676:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 12:08:27,676:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 12:08:27,676:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 12:08:46,662:INFO:All records are displayed
+2020-12-19 12:08:46,696:DEBUG:New Database connection
+2020-12-19 12:08:46,696:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 12:08:46,698:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 12:08:46,700:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 12:08:46,700:DEBUG:Result: (76, 'Django', 'Hello Python')
+2020-12-19 12:08:46,700:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 12:08:46,700:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 12:08:47,684:DEBUG:MongoClient connection closed
+2020-12-19 12:08:52,071:DEBUG:Existing MongoClient connection closed
+2020-12-19 12:08:52,072:DEBUG:New Database connection
+2020-12-19 12:08:52,073:DEBUG:sql_command: DELETE FROM "greettingApp_greetingrecords" WHERE "greettingApp_greetingrecords"."id" = %(0)s
+params: (76,)
+2020-12-19 12:08:52,897:DEBUG:delete_many: 1
+2020-12-19 12:08:52,898:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" WHERE "greettingApp_greetingrecords"."id" = %(0)s LIMIT 21
+params: (76,)
+2020-12-19 12:08:52,904:DEBUG:Find query: {'filter': {'id': {'$eq': 76}}, 'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 12:08:52,906:INFO:<QuerySet []> Record Deleted successfully
+2020-12-19 12:08:52,907:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 12:08:52,909:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 12:08:52,910:DEBUG:Result: (73, 'Birajit Nath', 'Hello! How was your day?')
+2020-12-19 12:08:52,910:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 12:08:52,910:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 12:08:52,913:DEBUG:MongoClient connection closed
+2020-12-19 12:09:01,140:DEBUG:Existing MongoClient connection closed
+2020-12-19 12:09:01,141:DEBUG:New Database connection
+2020-12-19 12:09:01,141:DEBUG:sql_command: DELETE FROM "greettingApp_greetingrecords" WHERE "greettingApp_greetingrecords"."id" = %(0)s
+params: (73,)
+2020-12-19 12:09:01,151:DEBUG:delete_many: 1
+2020-12-19 12:09:01,152:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" WHERE "greettingApp_greetingrecords"."id" = %(0)s LIMIT 21
+params: (73,)
+2020-12-19 12:09:01,155:DEBUG:Find query: {'filter': {'id': {'$eq': 73}}, 'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 12:09:01,156:INFO:<QuerySet []> Record Deleted successfully
+2020-12-19 12:09:01,157:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 12:09:01,159:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 12:09:01,160:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 12:09:01,160:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 12:09:01,163:DEBUG:MongoClient connection closed
+2020-12-19 12:09:30,637:DEBUG:Existing MongoClient connection closed
+2020-12-19 12:09:30,637:DEBUG:New Database connection
+2020-12-19 12:09:30,637:DEBUG:sql_command: INSERT INTO "greettingApp_greetingrecords" ("name", "message") VALUES (%(0)s, %(1)s)
+params: ['Javascript', 'Hello Web developers']
+2020-12-19 12:09:31,448:DEBUG:inserted ids [ObjectId('5fdda02310b9dce9a71cb6a0')]
+2020-12-19 12:09:31,448:INFO:Javascript, Hello Web developers... Data is saved
+2020-12-19 12:09:31,449:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 12:09:31,453:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 12:09:31,455:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 12:09:31,455:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 12:09:31,455:DEBUG:Result: (79, 'Javascript', 'Hello Web developers')
+2020-12-19 12:09:31,462:DEBUG:MongoClient connection closed
+2020-12-19 12:14:02,901:DEBUG:Existing MongoClient connection closed
+2020-12-19 12:14:02,902:DEBUG:New Database connection
+2020-12-19 12:14:02,902:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords" WHERE "greettingApp_greetingrecords"."id" = %(0)s LIMIT 21
+params: (78,)
+2020-12-19 12:14:02,906:DEBUG:Find query: {'filter': {'id': {'$eq': 78}}, 'projection': ['id', 'name', 'message'], 'limit': 21}
+2020-12-19 12:14:02,915:DEBUG:Result: (78, 'Covid19', 'Hello people')
+2020-12-19 12:14:02,916:DEBUG:sql_command: UPDATE "greettingApp_greetingrecords" SET "name" = %(0)s, "message" = %(1)s WHERE "greettingApp_greetingrecords"."id" = %(2)s
+params: ('Covid19', 'Hello Unhygine people', 78)
+2020-12-19 12:14:02,920:DEBUG:update_many: 1, matched: 1
+2020-12-19 12:14:02,920:INFO:Covid19, Hello Unhygine peopl... Record updated successfully
+2020-12-19 12:14:02,921:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 12:14:02,926:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 12:14:02,927:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 12:14:02,928:DEBUG:Result: (78, 'Covid19', 'Hello Unhygine people')
+2020-12-19 12:14:02,928:DEBUG:Result: (79, 'Javascript', 'Hello Web developers')
+2020-12-19 12:14:02,932:DEBUG:MongoClient connection closed
+2020-12-19 12:14:57,718:DEBUG:Using proactor: IocpProactor
+2020-12-19 12:15:24,603:DEBUG:New MongoClient connection
+2020-12-19 12:15:24,611:DEBUG:New Database connection
+2020-12-19 12:15:24,636:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 12:15:24,639:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 12:15:24,640:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 12:15:24,641:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 12:15:24,641:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 12:15:24,641:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 12:15:24,642:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 12:15:24,642:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 12:15:24,642:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 12:15:24,642:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 12:15:24,643:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 12:15:24,643:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 12:15:24,643:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 12:15:24,644:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 12:15:24,644:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 12:15:24,644:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 12:15:24,645:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 12:15:24,645:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 12:15:24,645:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 12:15:24,645:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 12:15:28,131:DEBUG:Using proactor: IocpProactor
+2020-12-19 12:24:42,170:DEBUG:New MongoClient connection
+2020-12-19 12:24:42,179:DEBUG:New Database connection
+2020-12-19 12:24:42,195:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 12:24:42,198:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 12:24:42,199:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 12:24:42,200:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 12:24:42,200:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 12:24:42,201:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 12:24:42,201:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 12:24:42,201:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 12:24:42,202:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 12:24:42,202:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 12:24:42,202:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 12:24:42,202:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 12:24:42,203:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 12:24:42,203:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 12:24:42,203:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 12:24:42,204:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 12:24:42,204:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 12:24:42,204:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 12:24:42,205:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 12:24:42,205:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 12:25:35,392:INFO:All records are displayed
+2020-12-19 12:25:35,422:DEBUG:New Database connection
+2020-12-19 12:25:35,423:DEBUG:sql_command: SELECT "greettingApp_greetingrecords"."id", "greettingApp_greetingrecords"."name", "greettingApp_greetingrecords"."message" FROM "greettingApp_greetingrecords"
+params: ()
+2020-12-19 12:25:35,425:DEBUG:Find query: {'projection': ['id', 'name', 'message']}
+2020-12-19 12:25:35,427:DEBUG:Result: (77, 'Python', 'Hi, Django! How are you? ')
+2020-12-19 12:25:35,428:DEBUG:Result: (78, 'Covid19', 'Hello Unhygine people')
+2020-12-19 12:25:35,428:DEBUG:Result: (79, 'Javascript', 'Hello Web developers')
+2020-12-19 12:25:35,437:DEBUG:MongoClient connection closed
+2020-12-19 12:28:21,308:DEBUG:Using proactor: IocpProactor
+2020-12-19 12:33:12,812:DEBUG:New MongoClient connection
+2020-12-19 12:33:12,820:DEBUG:New Database connection
+2020-12-19 12:33:12,836:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 12:33:12,838:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 12:33:12,840:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 12:33:12,840:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 12:33:12,841:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 12:33:12,841:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 12:33:12,841:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 12:33:12,842:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 12:33:12,842:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 12:33:12,842:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 12:33:12,843:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 12:33:12,843:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 12:33:12,843:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 12:33:12,844:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 12:33:12,844:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 12:33:12,844:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 12:33:12,845:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 12:33:12,845:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 12:33:12,845:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 12:33:12,845:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 12:38:24,666:DEBUG:New MongoClient connection
+2020-12-19 12:38:24,676:DEBUG:New Database connection
+2020-12-19 12:38:24,693:DEBUG:sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2020-12-19 12:38:24,696:DEBUG:Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2020-12-19 12:38:24,699:DEBUG:Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 3, 874000))
+2020-12-19 12:38:24,700:DEBUG:Result: (2, 'auth', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 5, 477000))
+2020-12-19 12:38:24,700:DEBUG:Result: (3, 'admin', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 6, 953000))
+2020-12-19 12:38:24,701:DEBUG:Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2020, 12, 16, 9, 19, 7, 140000))
+2020-12-19 12:38:24,701:DEBUG:Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2020, 12, 16, 9, 19, 7, 159000))
+2020-12-19 12:38:24,702:DEBUG:Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2020, 12, 16, 9, 19, 7, 200000))
+2020-12-19 12:38:24,702:DEBUG:Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 211000))
+2020-12-19 12:38:24,702:DEBUG:Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 231000))
+2020-12-19 12:38:24,703:DEBUG:Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2020, 12, 16, 9, 19, 7, 253000))
+2020-12-19 12:38:24,703:DEBUG:Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2020, 12, 16, 9, 19, 7, 281000))
+2020-12-19 12:38:24,703:DEBUG:Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2020, 12, 16, 9, 19, 7, 288000))
+2020-12-19 12:38:24,704:DEBUG:Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2020, 12, 16, 9, 19, 7, 308000))
+2020-12-19 12:38:24,704:DEBUG:Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 326000))
+2020-12-19 12:38:24,704:DEBUG:Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 347000))
+2020-12-19 12:38:24,705:DEBUG:Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2020, 12, 16, 9, 19, 7, 365000))
+2020-12-19 12:38:24,705:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
+2020-12-19 12:38:24,705:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
+2020-12-19 12:38:24,705:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
