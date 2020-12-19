@@ -85,7 +85,7 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'GreettingAppDB',
+        'NAME': 'GreetingDB',
     }
 }
 
