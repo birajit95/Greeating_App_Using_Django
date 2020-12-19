@@ -864,3 +864,18 @@ params: ()
 2020-12-19 12:38:24,705:DEBUG:Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2020, 12, 16, 9, 19, 7, 388000))
 2020-12-19 12:38:24,705:DEBUG:Result: (17, 'greettingApp', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 618000))
 2020-12-19 12:38:24,705:DEBUG:Result: (18, 'sessions', '0001_initial', datetime.datetime(2020, 12, 16, 9, 19, 7, 876000))
+2020-12-19 13:00:50,198:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\logger\logger.py changed, reloading.
+2020-12-19 13:00:50,199:DEBUG:Using proactor: IocpProactor
+2020-12-19 13:01:01,711:INFO:All records are displayed
+2020-12-19 13:01:07,174:INFO:<QuerySet []> Record Deleted successfully
+2020-12-19 13:01:19,955:INFO:Django, Hi Birajit... Data is saved
+2020-12-19 13:01:35,609:INFO:Django, Hi Geeky
+... Record updated successfully
+2020-12-19 14:36:35,146:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\GreettingAppProject\settings.py changed, reloading.
+2020-12-19 14:48:05,403:INFO:All records are displayed
+2020-12-19 14:48:07,557:INFO:All records are displayed
+2020-12-19 14:48:19,689:INFO:Birajit Nath, Hello Python
+... Data is saved
+2020-12-19 14:49:19,484:INFO:Django, I love Python... Data is saved
+2020-12-19 14:52:39,552:INFO:E:\WebApplicationsUsingDjango\GreettingApp\GreettingAppProject\greettingApp\models.py changed, reloading.
+2020-12-19 14:55:55,507:INFO:All records are displayed
