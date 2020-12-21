@@ -47,3 +47,8 @@ When contributing to this repository, please first discuss the change you wish t
 
 ### **Author**
 #### Birajit Nath
+
+</br>
+
+### **Licence**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
