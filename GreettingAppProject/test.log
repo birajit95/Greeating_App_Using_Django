@@ -1170,3 +1170,13 @@ ValueError: localtime() cannot be applied to a naive datetime
 2020-12-20 09:02:39,718:WARNING:Not implemented alter command for SQL ALTER TABLE "greettingApp_greetingrecords" ADD COLUMN "user_id" int NOT NULL
 2020-12-20 09:03:31,282:WARNING:Not implemented alter command for SQL ALTER TABLE "greettingApp_greetingrecords" ADD COLUMN "user_id" int NOT NULL
 2020-12-20 09:05:29,472:WARNING:Not implemented alter command for SQL ALTER TABLE "greettingApp_greetingrecords" ADD COLUMN "user_id" int NOT NULL
+2020-12-21 09:15:18,360:INFO:All records are displayed
+2020-12-21 09:15:19,107:WARNING:Not Found: /favicon.ico
+2020-12-21 09:15:21,840:INFO:<QuerySet []> Record Deleted successfully
+2020-12-21 09:15:49,478:INFO:Birajit Nath, Hi! Good Morning!... Data is saved
+2020-12-21 09:16:41,572:INFO:Akash Shrivastav, Hello Birajit! Good ... Data is saved
+2020-12-21 12:35:53,650:INFO:All records are displayed
+2020-12-21 12:37:55,826:INFO:All records are displayed
+2020-12-21 12:38:38,553:INFO:Raju, Good Afternoon... Data is saved
+2020-12-21 12:39:28,043:INFO:Akash Shrivastav, Hello Birajit! Good ... Record updated successfully
+2020-12-21 12:39:56,176:INFO:<QuerySet []> Record Deleted successfully
